@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using RedisConsoleApp.UserCrud;
 
 namespace RedisConsoleApp
 {
@@ -10,6 +11,8 @@ namespace RedisConsoleApp
     {
         static void Main(string[] args)
         {
+            //UserExamples.OnBeforeEachInvokeMeothod();
+            //UserExamples.StoreAndRetrieveUsers();
         }
     }
 }
