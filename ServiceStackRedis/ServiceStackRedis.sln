@@ -9,12 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceStack.Redis", "Servi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.Tests", "Console.Tests\Console.Tests.csproj", "{8368C965-B4F6-4263-9ABB-731A175B2E77}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceStack.Redis.Tests", "ServiceStack.Redis.Tests\ServiceStack.Redis.Tests.csproj", "{079FC072-6F4E-4C7E-AE5C-EBD634EAA887}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceStack.Redis.Tests.Sentinel", "ServiceStack.Redis.Tests.Sentinel\ServiceStack.Redis.Tests.Sentinel.csproj", "{4F2A2654-EA62-4F77-A090-0734B4604F17}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMqHost", "TestMqHost\TestMqHost.csproj", "{B932C136-4365-4C37-8187-96703715EBB4}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,18 +27,6 @@ Global
 		{8368C965-B4F6-4263-9ABB-731A175B2E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8368C965-B4F6-4263-9ABB-731A175B2E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8368C965-B4F6-4263-9ABB-731A175B2E77}.Release|Any CPU.Build.0 = Release|Any CPU
-		{079FC072-6F4E-4C7E-AE5C-EBD634EAA887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{079FC072-6F4E-4C7E-AE5C-EBD634EAA887}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{079FC072-6F4E-4C7E-AE5C-EBD634EAA887}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{079FC072-6F4E-4C7E-AE5C-EBD634EAA887}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4F2A2654-EA62-4F77-A090-0734B4604F17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4F2A2654-EA62-4F77-A090-0734B4604F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4F2A2654-EA62-4F77-A090-0734B4604F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4F2A2654-EA62-4F77-A090-0734B4604F17}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B932C136-4365-4C37-8187-96703715EBB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B932C136-4365-4C37-8187-96703715EBB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B932C136-4365-4C37-8187-96703715EBB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B932C136-4365-4C37-8187-96703715EBB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
