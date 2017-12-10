@@ -1,18 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
-namespace RedisConsoleApp.Entities
+namespace ServiceStackRedis.ConsApp.Entities
 {
     public class BlogPost
     {
         public BlogPost()
         {
-            this.Categories = new List<string>();
-            this.Tags = new List<string>();
-            this.Comments = new List<BlogPostComment>();
+            Categories = new List<string>();
+            Tags = new List<string>();
+            Comments = new List<BlogPostComment>();
         }
 
         public long Id { get; set; }

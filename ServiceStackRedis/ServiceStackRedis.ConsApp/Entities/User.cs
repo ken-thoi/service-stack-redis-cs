@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 
-namespace RedisConsoleApp.Entities
+namespace ServiceStackRedis.ConsApp.Entities
 {
     public class User
     {
         public User()
         {
-            this.BlogIds = new List<long>();
+            BlogIds = new List<long>();
         }
 
         public long Id { get; set; }

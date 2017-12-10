@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("RedisConsoleApp")]
+[assembly: AssemblyTitle("ServiceStackRedis.ConsApp")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("RedisConsoleApp")]
+[assembly: AssemblyProduct("ServiceStackRedis.ConsApp")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c64abdc7-08ed-4011-ab89-415fe11ca8a5")]
+[assembly: Guid("758143bd-2be3-4ab6-a1d0-a0ef4a8c9dcf")]
 
 // Version information for an assembly consists of the following four values:
 //

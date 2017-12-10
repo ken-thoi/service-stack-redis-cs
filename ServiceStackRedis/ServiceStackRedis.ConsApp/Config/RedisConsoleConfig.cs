@@ -1,7 +1,6 @@
 ﻿using System;
-using ServiceStack.Redis;
 
-namespace RedisConsoleApp.Config
+namespace ServiceStackRedis.ConsApp.Config
 {
     public static class RedisConsoleConfig
     {

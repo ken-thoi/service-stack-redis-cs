@@ -1,9 +1,4 @@
-﻿using RedisConsoleApp.Config;
-using RedisConsoleApp.Entities;
-using ServiceStack.Redis;
-using ServiceStack.Text;
-
-namespace RedisConsoleApp.UserCrud
+﻿namespace ServiceStackRedis.ConsApp.UserCrud
 {
     public static class UserExamples
     {
