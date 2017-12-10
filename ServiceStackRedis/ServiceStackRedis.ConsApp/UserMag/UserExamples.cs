@@ -1,4 +1,4 @@
-﻿namespace ServiceStackRedis.ConsApp.UserCrud
+﻿namespace ServiceStackRedis.ConsApp.UserMag
 {
     public static class UserExamples
     {
