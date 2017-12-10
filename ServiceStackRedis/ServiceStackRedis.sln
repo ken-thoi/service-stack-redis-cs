@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceStackRedis.ConsApp", "ServiceStackRedis.ConsApp\ServiceStackRedis.ConsApp.csproj", "{758143BD-2BE3-4AB6-A1D0-A0EF4A8C9DCF}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceStack.Redis", "ServiceStack.Redis\ServiceStack.Redis.csproj", "{FFC5CA77-DD11-47E4-812A-80BA8ADCF4D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{758143BD-2BE3-4AB6-A1D0-A0EF4A8C9DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{758143BD-2BE3-4AB6-A1D0-A0EF4A8C9DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{758143BD-2BE3-4AB6-A1D0-A0EF4A8C9DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFC5CA77-DD11-47E4-812A-80BA8ADCF4D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC5CA77-DD11-47E4-812A-80BA8ADCF4D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC5CA77-DD11-47E4-812A-80BA8ADCF4D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC5CA77-DD11-47E4-812A-80BA8ADCF4D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
