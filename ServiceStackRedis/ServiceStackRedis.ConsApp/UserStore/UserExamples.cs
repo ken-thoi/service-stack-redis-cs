@@ -3,7 +3,7 @@ using ServiceStack.Text;
 using ServiceStackRedis.ConsApp.Config;
 using ServiceStackRedis.ConsApp.Entities;
 
-namespace ServiceStackRedis.ConsApp.UserMag
+namespace ServiceStackRedis.ConsApp.UserStore
 {
     public static class UserExamples
     {

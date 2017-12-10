@@ -173,8 +173,7 @@ namespace ServiceStackRedis.ConsApp.BlogPortStore
 
             foreach (var blogPost in blogPosts)
             {
-                blogPost.Categories.ForEach(x =>
-                      Redis.AddItemToSet("urn:Categories", x));
+                blogPost.Categories.ForEach(x => Redis.AddItemToSet("urn:Categories", x));
             }
 
             var uniqueCategories = Redis.GetAllItemsFromSet("urn:Categories");

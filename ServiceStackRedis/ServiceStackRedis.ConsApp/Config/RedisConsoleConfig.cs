@@ -1,4 +1,5 @@
 ﻿using System;
+using ServiceStack.Redis;
 
 namespace ServiceStackRedis.ConsApp.Config
 {
@@ -11,6 +12,7 @@ namespace ServiceStackRedis.ConsApp.Config
     //ReceiveTimeout  int Timeout in ms for waiting for a synchronous TCP Socket Receive
     //IdleTimeOutSecs int Timeout in Seconds for an Idle connection to be considered active
     //NamespacePrefix string Use a custom prefix for ServiceStack.Redis internal index colletions
+
     public static class RedisConsoleConfig
     {
         static RedisConsoleConfig()
@@ -31,6 +33,6 @@ namespace ServiceStackRedis.ConsApp.Config
 
         public static string SingleHostConnectionString => SingleHost + ":" + RedisPort;
 
-        //public static BasicRedisClientManager BasicClientManger => new BasicRedisClientManager(new[] { SingleHostConnectionString });
+        public static BasicRedisClientManager BasicClientManger => new BasicRedisClientManager(new[] { SingleHostConnectionString });
     }
 }
